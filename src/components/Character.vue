@@ -4,7 +4,7 @@
             <v-card style="marging">
                 <v-card-media :src="character.image" height="200px"></v-card-media>
                 <v-card-title primary-title>
-                    <div>
+                    <div :id="index">
                         <span class="grey--text">Character number {{index}}</span><br>
                         <div style="text-align: left;"><strong>{{character.full_name}}</strong></div>
                     </div>
@@ -45,7 +45,7 @@ export default {
 
 <style>
 .button {
-  background-color:seagreen;  
+  background-color:seagreen;
   border-radius: 5px;
   color: white;
   font-weight: 600;

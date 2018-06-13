@@ -37,4 +37,16 @@ export default {
 .footer span {
   width: 100%;
 }
+
+.content {
+  width:800px;
+  height:500px;
+  margin:auto;
+  position:absolute;
+  top:0;bottom:0;
+  left:0;right:0;
+  max-width:320px;
+  max-height:100%;
+  overflow:auto;
+}
 </style>
